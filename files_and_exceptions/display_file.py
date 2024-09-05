@@ -19,8 +19,11 @@ def main():
   # Have just one except clause to catch all the exceptions that are raised in a try suite, you can specify Exception as the type.
   except Exception as err:
     print(err)
+
   # The else Clause, the statements in the else suite are executed after the statements in the try suite, only if no exceptions were raised. If the exception is raised, the else suite is skipped.
   else:
       print('Doing whatever you need to do, Dat.')
+  
+  # finally clause, appear after all the except clauses. always executed after the try suite has executed and after any exception handlers have executed. To perform clean up operations, such as closing file of other resources
 
 main()

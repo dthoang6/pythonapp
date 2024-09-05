@@ -38,6 +38,9 @@ print(x)
 y = person.values() # return a list of all values in the dict
 print(y)
 
+z = person.items()  # return each item in a dictionary, as tuples in a list
+print(z)
+
 #3. Change
 #4. Add
 #5. Remove
